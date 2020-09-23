@@ -1,9 +1,19 @@
 package com.hemebiotech.analytics;
 
-public class AnalyticsCounter {
+import java.io.IOException;
 
-	public static void main(String args[]) throws Exception {
+/*
+ * @author Lou
+ * 
+ * */
+
+public class AnalyticsCounter {
+	/*
+	 * @throws IOException If output operations return a failure
+	 * 
+	 * @see printResultsOut()
+	 */
+	public static void main(String args[]) throws IOException {
 		ResultDataFromFile.printResultsOut();
 	}
-
 }
